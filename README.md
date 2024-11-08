@@ -1,5 +1,5 @@
 <h1>Ender</h1>
-<i>The semester-long project of Team 5 (CINF 405/505)</i>
+<i>The group project of Team 5 (CINF 405/505)</i>
 <br/>
 <br/>
 <p>A calendar that will help organize schoolwork, chores, reminders, and other personal needs, all from your web browser.</p>
