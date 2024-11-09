@@ -22,9 +22,9 @@ def howItWorks():
 def fallback():
     return render_template("home.html")
     
-@app.route("/*")
+@app.errorhandler(401)
 def error():
-    return render_template("error.html")
+    return render_template("error.html"), 401
 
 if __name__ == "__main__":
     app.run()
