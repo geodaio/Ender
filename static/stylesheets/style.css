@@ -9,6 +9,8 @@ body {
 header {
   width: 99%;
   margin: auto;
+  display: flex;
+  flex-direction: row;
 }
 
 #headerNav{
@@ -17,17 +19,15 @@ header {
 }
 
 #headerAside{
-  flex:1;
-  display:flex;
-  flex-direction: row;
-  align-items:flex-end;
+  flex: 1;
   display: flex;
+  justify-content: flex-end;
+  margin: auto;
 }
 
 #headerFirst{
-  flex:1;
-  display:flex;
-  flex-direction: row;
-  align-items:flex-start;
+  flex: 1;
   display: flex;
+  justify-content: flex-start;
+  margin: auto;
 }
