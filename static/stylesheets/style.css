@@ -9,9 +9,18 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 99%;
+  margin: auto;
 }
 
 #headerNav{
   padding-left: 2em;
   padding-right: 2em;
+}
+
+#headerAside{
+  flex:1;
+  display:flex;
+  align-items:flex-end;
+  display: inherit;
 }
