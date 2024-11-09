@@ -26,6 +26,10 @@ def fallback():
 def pageNotFound(error):
     return render_template("error.html"), 404
 
+@app.errorhandler(500)
+def pageNotFound(error):
+    return render_template("internal.html"), 500
+
 if __name__ == "__main__":
     app.run()
     
