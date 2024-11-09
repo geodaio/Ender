@@ -1,6 +1,11 @@
 from flask import Flask, render_template
+from flask_session import Session
+from werkzeug.security import check_password_hash, generate_password_hash
+
+
 
 app = Flask(__name__, template_folder="api/html")
+
 
 @app.route("/home.html")
 def index():
@@ -18,10 +23,27 @@ def calendar():
 def howItWorks():
     return render_template("howItWorks.html")
 
+@app.route("/login.html", methods=["GET", "POST"])
+def register():
+    if request.method == "POST":
+        username = request.form.get("username")
+        password = request.form.get("password")
+        conf = request.form.get("conf")
+
+        if not username:
+            test
+        elif 
+    
+
 @app.route("/")
 def fallback():
     return render_template("home.html")
-    
+
+
+
+
+
+
 @app.errorhandler(404)
 def pageNotFound(error):
     return render_template("error.html"), 404
