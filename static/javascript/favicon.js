@@ -3,13 +3,14 @@ const mode = window.matchMedia("(prefers-color-scheme: dark)");
 
 
 //Set on Entry
-if ((window.matchMedia("(prefers-color-scheme: light)"))) {
-  console.log("light");
-  favicon.setAttribute("href", "static/images/logoLight.svg");
-}
-else if (window.matchMedia("(prefers-color-scheme: dark)")){
+
+if (mode.matches){
   console.log("dark");
   favicon.setAttribute("href", "static/images/logoDark.svg");
+}
+else {
+  console.log("light");
+  favicon.setAttribute("href", "static/images/logoLight.svg");
 }
 
 //Set on Change
