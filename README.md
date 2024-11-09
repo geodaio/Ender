@@ -8,7 +8,7 @@
 
 <h2>Group Members</h2>
 
-<h3>Damla Sisman <i>(PRONOUNS)</i></h3>
+<h3>Damla Sisman</h3>
 <a href="mailto:dsisman@albany.edu">Email</a>
 <ul>
   <li>BLANK Major, BLANK Minor/Concentration</li>
@@ -20,7 +20,7 @@
   </ul>
 </ul>
 
-<h3>Devishti Jainarain <i>(PRONOUNS)</i></h3>
+<h3>Devishti Jainarain</h3>
 <a href="mailto:djainarain@albany.edu">Email</a>
 <ul>
   <li>BLANK Major, BLANK Minor/Concentration</li>
@@ -31,7 +31,7 @@
   </ul>
 </ul>
 
-<h3>Abigail Powell <i>(They/She)</i></h3>
+<h3>Abigail Powell</h3>
 <a href="mailto:ampowell@albany.edu">ampowell@albany.edu</a>
 <ul>
   <li>Informatics Major, Interactive User Interface Concentration</li>
@@ -44,7 +44,7 @@
   </ul>
 </ul>
 
-<h3>Charan Panthulu <i>(PRONOUNS)</i></h3>
+<h3>Charan Panthulu</h3>
 <a href="mailto:spanthulu@albany.edu">Email</a>
 <ul>
   <li>BLANK Major, BLANK Minor/Concentration</li>
@@ -55,7 +55,7 @@
   </ul>
 </ul>
 
-<h3>Kyla Shirley <i>(PRONOUNS)</i></h3>
+<h3>Kyla Shirley</h3>
 <a href="mailto:">Email</a>
 <ul>
   <li>BLANK Major, BLANK Minor/Concentration</li>
