@@ -23,7 +23,7 @@ def fallback():
     return render_template("home.html")
     
 @app.errorhandler(404)
-def uhoh():
+def pageNotFound(error):
     return render_template("error.html"), 404
 
 if __name__ == "__main__":
