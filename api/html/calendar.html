@@ -4,7 +4,15 @@
 
 {% block main %}
 
-<p>APPLICATION</p>
+{% if session["id"] %}
+
+<p>application</p>
+
+{% else %}
+
+<p>redirect</p>
+
+{% endif %}
 
 {% endblock %}
 
