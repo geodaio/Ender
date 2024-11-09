@@ -32,7 +32,7 @@
 </ul>
 
 <h3>Abigail Powell <i>(They/She)</i></h3>
-<a href="mailto:ampowell@albany.edu">Email</a>
+<a href="mailto:ampowell@albany.edu">ampowell@albany.edu</a>
 <ul>
   <li>Informatics Major, Interactive User Interface Concentration</li>
   <li>Graduating May 2025</li>
