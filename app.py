@@ -7,16 +7,16 @@ import re
 
 app = Flask(__name__, template_folder="api/html")
 
+@app.route("/home.html")
+def index():
+    return render_template("home.html")
+    
 def dbConnect():
     connect = psycopg2.connect(host= process.env.POSTGRES_HOST,
                             database= process.env.POSTGRES_DATABASE,
                             user= process.env.POSTGRES_USER,
                             password= process.env.POSTGRES_PASSWORD)
     return conn
-
-@app.route("/home.html")
-def index():
-    return render_template("home.html")
 
 @app.route("/aboutUs.html")
 def aboutUs():
