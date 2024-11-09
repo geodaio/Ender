@@ -18,7 +18,7 @@ def calendar():
 def howItWorks():
     return render_template("howItWorks.html")
 
-@app.route("/")
+@app.route("/*")
 def fallback():
     return render_template("home.html")
 
