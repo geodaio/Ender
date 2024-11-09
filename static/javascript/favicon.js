@@ -12,7 +12,7 @@ else {
 
 
 //Set on Change
-mdoe.addEventListener("change", (event) => {
+mode.addEventListener("change", (event) => {
   if (event.matches){
     favicon.setAttribute("href", "static/images/logoDark.svg");
   }
