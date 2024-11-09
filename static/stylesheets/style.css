@@ -13,6 +13,11 @@ header {
   flex-direction: row;
 }
 
+header a{
+  padding-left:1em;
+  padding-right:1em;
+}
+
 #headerNav{
   padding-left: 2em;
   padding-right: 2em;
