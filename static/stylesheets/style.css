@@ -79,6 +79,10 @@ header a{
   padding-right: 2em;
 }
 
+#headerUsername{
+  padding-top: 1.3em;
+}
+
 #headerAside{
   flex: 1;
   display: flex;
