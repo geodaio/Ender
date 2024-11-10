@@ -18,6 +18,10 @@ header a{
   padding-right:1em;
 }
 
+#headerProf{
+  width:11%;
+}
+
 #headerNav{
   padding-left: 2em;
   padding-right: 2em;
