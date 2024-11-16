@@ -11,11 +11,12 @@
 <h3>Damla Sisman</h3>
 <a href="mailto:dsisman@albany.edu">Email</a>
 <ul>
-  <li>BLANK Major, BLANK Minor/Concentration</li>
-  <li>Graduating BLANK 20XX</li>
+  <li>Informatics Major, Software Development Concentration</li>
+  <li>Graduating Summer 2025</li>
   <li>Specializes in:</li>
   <ul>
     <li>Python</li>
+    <li>HTML/CSS</li>
     <li>Java</li>
   </ul>
 </ul>
