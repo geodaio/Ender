@@ -1,4 +1,4 @@
-<p><i>Due to repository issues, this is the original repository for this project. For the full project, please visit <a href="https://github.com/geodaio/ender-calendars">Ender Calendars</a></i></p>
+<h1><i>Due to repository issues, this is the original repository for this project. For the full project, please visit <a href="https://github.com/geodaio/ender-calendars">Ender Calendars</a></i></h1>
 <br/>
 <br/>
 <br/>
