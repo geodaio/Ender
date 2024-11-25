@@ -1,3 +1,10 @@
+<p><i>Due to repository issues, this is the original repository for this project. For the full project, please visit <a href="https://github.com/geodaio/ender-calendars">Ender Calendars</a></i></p>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <h1>Ender</h1>
 <i>The group project of Team 5 (CINF 405/505)</i>
 <br/>
