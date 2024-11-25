@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__, template_folder="api/html")
 
@@ -26,14 +27,10 @@ def page():
 def fallback():
     return render_template("home.html")
 
-
 @app.errorhandler(404)
 def pageNotFound(error):
     return render_template("error.html"), 404
 
-@app.errorhandler(500)
-def pageNotFound(error):
-    return render_template("internal.html"), 500
 
 if __name__ == "__main__":
     app.run()
